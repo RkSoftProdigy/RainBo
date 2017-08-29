@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BillingAndShippingView">
+            <connections>
+                <outlet property="address1" destination="U8i-t3-td0" id="Fmd-Ea-kcg"/>
+                <outlet property="address1Sh" destination="ehW-OY-LIh" id="5DZ-ly-cSE"/>
+                <outlet property="address2" destination="JoW-t3-mLV" id="ixl-0j-Mak"/>
+                <outlet property="address2Sh" destination="wmq-5O-WuP" id="vmu-7v-Qph"/>
+                <outlet property="billingLbl" destination="Om4-xH-Mtb" id="xL4-Cu-du2"/>
+                <outlet property="billingView" destination="1ND-6g-N8p" id="9B9-ja-eWx"/>
+                <outlet property="borderAddress1" destination="fQh-sV-gdA" id="wqX-C9-7cy"/>
+                <outlet property="borderAddress1Sh" destination="fCp-ZV-mm9" id="o0o-IJ-fID"/>
+                <outlet property="borderAddress2" destination="Dzx-i1-Ihn" id="Ixs-k9-efT"/>
+                <outlet property="borderAddress2Sh" destination="NiR-CT-48g" id="Zrq-NQ-bHm"/>
+                <outlet property="borderCountry" destination="a19-CZ-cpe" id="6MX-y4-O4M"/>
+                <outlet property="borderCountrySh" destination="ZLN-6d-Dsg" id="YH4-4n-CkF"/>
+                <outlet property="borderEmail" destination="g7g-SZ-IAe" id="8aU-CE-1eD"/>
+                <outlet property="borderEmailSh" destination="9AQ-2w-Www" id="Chw-Ay-UI3"/>
+                <outlet property="borderFirstname" destination="hFh-iA-4Dc" id="t8Y-FA-9Vb"/>
+                <outlet property="borderFirstnameSh" destination="eTy-H2-Y5c" id="5AI-bm-hqx"/>
+                <outlet property="borderLastName" destination="tKl-fr-1Ca" id="3la-df-Ro4"/>
+                <outlet property="borderLastNameSh" destination="dt2-qP-fQn" id="f2t-s8-KzF"/>
+                <outlet property="borderPhone" destination="v9J-jS-R4S" id="6D4-pr-Oz1"/>
+                <outlet property="borderPhoneSh" destination="5tC-bB-Vue" id="9Bv-5G-gLu"/>
+                <outlet property="borderPostCode" destination="lyl-Dt-tYE" id="Jyq-dM-ZUc"/>
+                <outlet property="borderPostCodeSh" destination="nH8-9q-N2o" id="JKb-FB-oqR"/>
+                <outlet property="borderSelect" destination="47X-DE-m0e" id="pNh-lb-zz2"/>
+                <outlet property="borderSelectSh" destination="Oxj-W0-i6I" id="6Za-nr-taz"/>
+                <outlet property="borderState" destination="dou-s7-F8f" id="iHr-jD-lZ1"/>
+                <outlet property="borderStateSh" destination="Csj-EW-ucM" id="Y2n-9D-B9V"/>
+                <outlet property="borderTown" destination="UHu-W1-VRE" id="HWV-By-Mtw"/>
+                <outlet property="borderTownSh" destination="xrY-Yt-Br4" id="syk-pS-SPI"/>
+                <outlet property="btnCountry" destination="47X-DE-m0e" id="2Qg-0D-blW"/>
+                <outlet property="btnCountry2" destination="Oxj-W0-i6I" id="DHu-tT-Bph"/>
+                <outlet property="buttonState" destination="PZD-Nu-voH" id="bQ6-Nw-Ug5"/>
+                <outlet property="buttonStateSh" destination="hy4-tw-0et" id="a02-wX-uxC"/>
+                <outlet property="checkbutton" destination="9mw-ex-GPi" id="H3I-u3-EUa"/>
+                <outlet property="country" destination="Ztm-np-QA9" id="S1m-W3-PU7"/>
+                <outlet property="countrySh" destination="BeF-6X-zQc" id="iIw-gA-fkQ"/>
+                <outlet property="countryTable" destination="LLl-Z1-CpD" id="3lB-m1-cTa"/>
+                <outlet property="email" destination="3uA-Rz-trl" id="OOv-t5-ZHk"/>
+                <outlet property="emailSh" destination="Sb7-Ll-y3l" id="RpO-Rv-mbS"/>
+                <outlet property="firstname" destination="HDm-2L-w5Y" id="xlF-yI-GA7"/>
+                <outlet property="firstnameSh" destination="KlE-gp-e7w" id="Y3B-fb-I2C"/>
+                <outlet property="labelAddress1" destination="l7I-rv-ylB" id="fWf-Op-cQK"/>
+                <outlet property="labelAddress1Sh" destination="1Pn-mG-gpG" id="kfn-Az-EZ1"/>
+                <outlet property="labelAddress2" destination="BXv-k6-oBw" id="aMI-HA-N3O"/>
+                <outlet property="labelAddress2Sh" destination="Ohe-9R-rrs" id="bgK-Jb-4pz"/>
+                <outlet property="labelCountry" destination="7z8-hm-S4T" id="flI-iv-Oo4"/>
+                <outlet property="labelCountrySh" destination="W3q-my-gAp" id="SjR-h6-Duh"/>
+                <outlet property="labelEmail" destination="Q44-UP-4uT" id="nbv-Tc-oLR"/>
+                <outlet property="labelEmailSh" destination="vTH-4v-a5n" id="Egp-Wm-Lf5"/>
+                <outlet property="labelFirstname" destination="3dW-TR-XBA" id="ioK-ez-Gmt"/>
+                <outlet property="labelFirstnameSh" destination="EUG-uw-omo" id="uQu-TJ-2uu"/>
+                <outlet property="labelLastName" destination="qPv-4V-mA9" id="btO-zF-Go6"/>
+                <outlet property="labelLastNameSh" destination="8Ho-qc-yjb" id="eQz-ZB-dk5"/>
+                <outlet property="labelPhone" destination="TCv-rp-BbW" id="k4j-jb-nk0"/>
+                <outlet property="labelPhoneSh" destination="yP5-Rh-1mc" id="d0U-4A-Gsd"/>
+                <outlet property="labelPostCode" destination="nyc-AU-09Q" id="s50-V7-YtR"/>
+                <outlet property="labelPostCodeSh" destination="G0y-ti-BV6" id="c48-He-OKL"/>
+                <outlet property="labelSameAddress" destination="KYc-Jf-P8j" id="8sr-5L-De2"/>
+                <outlet property="labelState" destination="3rZ-42-BMk" id="EPS-Fm-J4t"/>
+                <outlet property="labelStateSh" destination="OWx-XG-IXi" id="OIJ-zZ-n7Z"/>
+                <outlet property="labelTown" destination="H21-1a-ByS" id="6mX-nL-X0a"/>
+                <outlet property="labelTownSh" destination="3Q7-ng-NR7" id="avf-8Q-b8p"/>
+                <outlet property="lastName" destination="YRj-5x-fpn" id="j1j-yM-mvo"/>
+                <outlet property="lastNameSh" destination="35E-n0-EGH" id="818-a0-u82"/>
+                <outlet property="phone" destination="Bo0-Dm-Uxd" id="3M8-JP-7Yl"/>
+                <outlet property="phoneSh" destination="q7X-Gw-WQc" id="EIq-JP-20P"/>
+                <outlet property="placeOrderBorder" destination="9jT-nk-SUd" id="hPC-95-OUa"/>
+                <outlet property="postCode" destination="AhU-cp-PCm" id="vVb-Mp-NaT"/>
+                <outlet property="postCodeSh" destination="AYu-ef-Cxf" id="gUC-by-O09"/>
+                <outlet property="scrollView" destination="hjd-Mj-dqR" id="5oC-pf-hni"/>
+                <outlet property="shiftView" destination="dco-48-uxW" id="wp2-Qb-T7i"/>
+                <outlet property="shiftViewSh" destination="HJq-rZ-FPN" id="f1M-O2-59u"/>
+                <outlet property="shippingHead" destination="Wbc-Ki-pkY" id="dDT-U2-Ywo"/>
+                <outlet property="shippingLbl" destination="6kd-Af-yv7" id="nWC-oN-AxS"/>
+                <outlet property="shoppingView" destination="awM-B0-lqw" id="NMt-a0-5b1"/>
+                <outlet property="state" destination="8KH-S7-lV3" id="YbX-PZ-NsF"/>
+                <outlet property="stateSh" destination="YI8-gA-Tq5" id="jXk-QS-rp6"/>
+                <outlet property="topView" destination="bRD-vq-MFK" id="3ob-JH-fpr"/>
+                <outlet property="town" destination="Gq0-kq-X0e" id="Qxz-fl-oZQ"/>
+                <outlet property="townSh" destination="pa4-5d-C2A" id="doH-sq-gfu"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="bRD-vq-MFK">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="62"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" tag="9999" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="hGS-dw-530">
+                            <rect key="frame" x="0.0" y="24" width="41" height="34"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <inset key="contentEdgeInsets" minX="8" minY="8" maxX="14" maxY="10"/>
+                            <inset key="imageEdgeInsets" minX="5" minY="1" maxX="3" maxY="-3"/>
+                            <state key="normal" image="back_btn.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="backButton:" destination="-1" eventType="touchUpInside" id="Qbf-8p-SYs"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="n6u-EL-Fy8">
+                            <rect key="frame" x="99" y="26" width="123" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <inset key="contentEdgeInsets" minX="8" minY="8" maxX="8" maxY="8"/>
+                            <state key="normal" title="ADDRESS">
+                                <color key="titleColor" red="0.91764705879999997" green="0.4039215686" blue="0.2901960784" alpha="1" colorSpace="deviceRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="homeButton:" destination="-1" eventType="touchUpInside" id="wEE-DL-ngL"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.16078431369999999" green="0.18823529410000001" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="164" y="189"/>
+        </view>
+        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="hjd-Mj-dqR">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="1070"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="1ND-6g-N8p">
+                    <rect key="frame" x="10" y="52" width="300" height="438"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                    <subviews>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" id="3LK-pk-L1b">
+                            <rect key="frame" x="0.0" y="0.0" width="300" height="437"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" id="a19-CZ-cpe">
+                                    <rect key="frame" x="0.0" y="0.0" width="258" height="38"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Select Country" minimumFontSize="17" id="Ztm-np-QA9">
+                                            <rect key="frame" x="13" y="0.0" width="239" height="38"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                            <color key="tintColor" red="0.33333334329999997" green="0.6549019814" blue="0.83137261870000001" alpha="1" colorSpace="deviceRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                                            <connections>
+                                                <outlet property="delegate" destination="-1" id="w5I-Px-FVy"/>
+                                            </connections>
+                                        </textField>
+                                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Country" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7z8-hm-S4T">
+                                            <rect key="frame" x="13" y="1" width="138" height="13"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="47X-DE-m0e">
+                                    <rect key="frame" x="258" y="0.0" width="42" height="38"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" red="0.16078431369999999" green="0.18823529410000001" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" image="dropdown_arrow.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" tag="61" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ggb-e0-gYm">
+                                    <rect key="frame" x="0.0" y="0.0" width="300" height="38"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="selectCountry:" destination="-1" eventType="touchUpInside" id="bGx-KK-zld"/>
+                                    </connections>
+                                </button>
+                                <view contentMode="scaleToFill" id="hFh-iA-4Dc">
+                                    <rect key="frame" x="0.0" y="48" width="300" height="38"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="First Name" minimumFontSize="17" id="HDm-2L-w5Y">
+                                            <rect key="frame" x="13" y="0.0" width="281" height="38"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                            <color key="tintColor" red="0.33333334329999997" green="0.6549019814" blue="0.83137261870000001" alpha="1" colorSpace="deviceRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="next"/>
+                                            <connections>
+                                                <outlet property="delegate" destination="-1" id="wnT-HC-jLQ"/>
+                                            </connections>
+                                        </textField>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3dW-TR-XBA">
+                                            <rect key="frame" x="13" y="1" width="161" height="13"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="tKl-fr-1Ca">
+                                    <rect key="frame" x="0.0" y="96" width="300" height="38"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Last Name" minimumFontSize="17" id="YRj-5x-fpn">
+                                            <rect key="frame" x="14" y="0.0" width="281" height="38"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                            <color key="tintColor" red="0.33333334329999997" green="0.6549019814" blue="0.83137261870000001" alpha="1" colorSpace="deviceRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="next"/>
+                                            <connections>
+                                                <outlet property="delegate" destination="-1" id="eKD-RR-Pt6"/>
+                                            </connections>
+                                        </textField>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qPv-4V-mA9">
+                                            <rect key="frame" x="14" y="1" width="161" height="13"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="fQh-sV-gdA">
+                                    <rect key="frame" x="0.0" y="144" width="300" height="38"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Address Line 1" minimumFontSize="17" id="U8i-t3-td0">
+                                            <rect key="frame" x="13" y="0.0" width="281" height="38"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                            <color key="tintColor" red="0.33333334329999997" green="0.6549019814" blue="0.83137261870000001" alpha="1" colorSpace="deviceRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="next"/>
+                                            <connections>
+                                                <outlet property="delegate" destination="-1" id="aE1-EV-7El"/>
+                                            </connections>
+                                        </textField>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address Line 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="l7I-rv-ylB">
+                                            <rect key="frame" x="13" y="1" width="161" height="13"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="Dzx-i1-Ihn">
+                                    <rect key="frame" x="0.0" y="192" width="300" height="38"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address Line 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BXv-k6-oBw">
+                                            <rect key="frame" x="13" y="1" width="161" height="13"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Address Line 2" minimumFontSize="17" id="JoW-t3-mLV">
+                                            <rect key="frame" x="13" y="0.0" width="281" height="38"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                            <color key="tintColor" red="0.33333334329999997" green="0.6549019814" blue="0.83137261870000001" alpha="1" colorSpace="deviceRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="next"/>
+                                            <connections>
+                                                <outlet property="delegate" destination="-1" id="QBN-tW-vtW"/>
+                                            </connections>
+                                        </textField>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="UHu-W1-VRE">
+                                    <rect key="frame" x="0.0" y="244" width="300" height="38"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Town / City" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="H21-1a-ByS">
+                                            <rect key="frame" x="13" y="1" width="161" height="13"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Town / City" minimumFontSize="17" id="Gq0-kq-X0e">
+                                            <rect key="frame" x="13" y="0.0" width="281" height="38"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                            <color key="tintColor" red="0.33333334329999997" green="0.6549019814" blue="0.83137261870000001" alpha="1" colorSpace="deviceRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="next"/>
+                                            <connections>
+                                                <outlet property="delegate" destination="-1" id="f5F-Rh-w2s"/>
+                                            </connections>
+                                        </textField>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="dou-s7-F8f">
+                                    <rect key="frame" x="0.0" y="292" width="300" height="38"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="State / Region" minimumFontSize="17" id="8KH-S7-lV3">
+                                            <rect key="frame" x="13" y="0.0" width="281" height="38"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                            <color key="tintColor" red="0.33333334329999997" green="0.6549019814" blue="0.83137261870000001" alpha="1" colorSpace="deviceRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="next"/>
+                                            <connections>
+                                                <outlet property="delegate" destination="-1" id="3l7-L6-gxX"/>
+                                            </connections>
+                                        </textField>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="State / Region" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3rZ-42-BMk">
+                                            <rect key="frame" x="13" y="1" width="161" height="13"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" tag="71" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PZD-Nu-voH">
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="38"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal">
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="textField1Active:" destination="-1" eventType="touchUpInside" id="qAN-x6-RKc"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="dco-48-uxW">
+                                    <rect key="frame" x="0.0" y="340" width="300" height="86"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" id="lyl-Dt-tYE">
+                                            <rect key="frame" x="0.0" y="0.0" width="140" height="38"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Postcode / Zip" minimumFontSize="17" id="AhU-cp-PCm">
+                                                    <rect key="frame" x="13" y="0.0" width="127" height="38"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="tintColor" red="0.33333334329999997" green="0.6549019814" blue="0.83137261870000001" alpha="1" colorSpace="deviceRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="words" keyboardType="numbersAndPunctuation"/>
+                                                    <connections>
+                                                        <outlet property="delegate" destination="-1" id="gfH-vI-DIp"/>
+                                                    </connections>
+                                                </textField>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Postcode / Zip" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nyc-AU-09Q">
+                                                    <rect key="frame" x="13" y="1" width="127" height="13"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        </view>
+                                        <view contentMode="scaleToFill" id="v9J-jS-R4S">
+                                            <rect key="frame" x="160" y="0.0" width="140" height="38"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TCv-rp-BbW">
+                                                    <rect key="frame" x="13" y="1" width="127" height="13"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Phone" minimumFontSize="17" id="Bo0-Dm-Uxd">
+                                                    <rect key="frame" x="13" y="0.0" width="127" height="38"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                                    <color key="tintColor" red="0.33333334329999997" green="0.6549019814" blue="0.83137261870000001" alpha="1" colorSpace="deviceRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="words" keyboardType="numbersAndPunctuation"/>
+                                                    <connections>
+                                                        <outlet property="delegate" destination="-1" id="eCg-Nv-hVV"/>
+                                                    </connections>
+                                                </textField>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        </view>
+                                        <view contentMode="scaleToFill" id="g7g-SZ-IAe">
+                                            <rect key="frame" x="0.0" y="48" width="300" height="38"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="E-Mail Address" minimumFontSize="17" id="3uA-Rz-trl">
+                                                    <rect key="frame" x="13" y="0.0" width="281" height="38"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                    <color key="tintColor" red="0.33333334329999997" green="0.6549019814" blue="0.83137261870000001" alpha="1" colorSpace="deviceRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="words" keyboardType="emailAddress"/>
+                                                    <connections>
+                                                        <outlet property="delegate" destination="-1" id="r65-wO-5rM"/>
+                                                    </connections>
+                                                </textField>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E-Mail Address" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Q44-UP-4uT">
+                                                    <rect key="frame" x="13" y="1" width="161" height="13"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        </view>
+                                    </subviews>
+                                </view>
+                            </subviews>
+                        </scrollView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" id="Wbc-Ki-pkY">
+                    <rect key="frame" x="8" y="490" width="300" height="34"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shipping Details" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6kd-Af-yv7">
+                            <rect key="frame" x="10" y="6" width="280" height="21"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.91764705879999997" green="0.4039215686" blue="0.2901960784" alpha="1" colorSpace="deviceRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.49019607840000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Same as My Billing Address" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KYc-Jf-P8j">
+                    <rect key="frame" x="51" y="542" width="234" height="21"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" id="awM-B0-lqw">
+                    <rect key="frame" x="10" y="578" width="300" height="438"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                    <subviews>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" id="YfB-C1-5QR">
+                            <rect key="frame" x="0.0" y="0.0" width="300" height="438"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" id="HJq-rZ-FPN">
+                                    <rect key="frame" x="0.0" y="340" width="300" height="86"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" id="nH8-9q-N2o">
+                                            <rect key="frame" x="0.0" y="0.0" width="140" height="38"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Postcode / Zip" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="G0y-ti-BV6">
+                                                    <rect key="frame" x="13" y="1" width="124" height="13"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Postcode / Zip" minimumFontSize="17" id="AYu-ef-Cxf">
+                                                    <rect key="frame" x="13" y="0.0" width="127" height="38"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="tintColor" red="0.33333334329999997" green="0.6549019814" blue="0.83137261870000001" alpha="1" colorSpace="deviceRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="words" keyboardType="numbersAndPunctuation"/>
+                                                    <connections>
+                                                        <outlet property="delegate" destination="-1" id="hbj-I2-aY8"/>
+                                                    </connections>
+                                                </textField>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        </view>
+                                        <view contentMode="scaleToFill" id="5tC-bB-Vue">
+                                            <rect key="frame" x="160" y="0.0" width="140" height="38"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Phone" minimumFontSize="17" id="q7X-Gw-WQc">
+                                                    <rect key="frame" x="13" y="0.0" width="127" height="38"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                                    <color key="tintColor" red="0.33333334329999997" green="0.6549019814" blue="0.83137261870000001" alpha="1" colorSpace="deviceRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="words" keyboardType="numbersAndPunctuation"/>
+                                                    <connections>
+                                                        <outlet property="delegate" destination="-1" id="RJI-3q-NnP"/>
+                                                    </connections>
+                                                </textField>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yP5-Rh-1mc">
+                                                    <rect key="frame" x="13" y="1" width="120" height="13"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        </view>
+                                        <view contentMode="scaleToFill" id="9AQ-2w-Www">
+                                            <rect key="frame" x="0.0" y="48" width="300" height="38"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="E-Mail Address" minimumFontSize="17" id="Sb7-Ll-y3l">
+                                                    <rect key="frame" x="13" y="0.0" width="281" height="38"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                    <color key="tintColor" red="0.33333334329999997" green="0.6549019814" blue="0.83137261870000001" alpha="1" colorSpace="deviceRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="words" keyboardType="emailAddress"/>
+                                                    <connections>
+                                                        <outlet property="delegate" destination="-1" id="omn-xj-25z"/>
+                                                    </connections>
+                                                </textField>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E-Mail Address" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vTH-4v-a5n">
+                                                    <rect key="frame" x="13" y="1" width="161" height="13"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        </view>
+                                    </subviews>
+                                </view>
+                                <view contentMode="scaleToFill" id="ZLN-6d-Dsg">
+                                    <rect key="frame" x="0.0" y="0.0" width="258" height="38"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Select Country" minimumFontSize="17" id="BeF-6X-zQc">
+                                            <rect key="frame" x="13" y="0.0" width="239" height="38"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                            <color key="tintColor" red="0.33333334329999997" green="0.6549019814" blue="0.83137261870000001" alpha="1" colorSpace="deviceRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                                            <connections>
+                                                <outlet property="delegate" destination="-1" id="nQo-Ur-p4f"/>
+                                            </connections>
+                                        </textField>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Country" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="W3q-my-gAp">
+                                            <rect key="frame" x="13" y="1" width="138" height="13"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Oxj-W0-i6I">
+                                    <rect key="frame" x="258" y="0.0" width="42" height="38"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" red="0.16078431369999999" green="0.18823529410000001" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" image="dropdown_arrow.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" tag="62" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XJg-JS-79h">
+                                    <rect key="frame" x="0.0" y="0.0" width="300" height="38"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="selectCountry:" destination="-1" eventType="touchUpInside" id="9ow-hZ-5By"/>
+                                    </connections>
+                                </button>
+                                <view contentMode="scaleToFill" id="eTy-H2-Y5c">
+                                    <rect key="frame" x="0.0" y="48" width="300" height="38"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="First Name" minimumFontSize="17" id="KlE-gp-e7w">
+                                            <rect key="frame" x="13" y="0.0" width="281" height="38"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                            <color key="tintColor" red="0.33333334329999997" green="0.6549019814" blue="0.83137261870000001" alpha="1" colorSpace="deviceRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="next"/>
+                                            <connections>
+                                                <outlet property="delegate" destination="-1" id="3yu-BD-y3z"/>
+                                            </connections>
+                                        </textField>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EUG-uw-omo">
+                                            <rect key="frame" x="13" y="1" width="161" height="13"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="dt2-qP-fQn">
+                                    <rect key="frame" x="0.0" y="96" width="300" height="38"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8Ho-qc-yjb">
+                                            <rect key="frame" x="13" y="1" width="161" height="13"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Last Name" minimumFontSize="17" id="35E-n0-EGH">
+                                            <rect key="frame" x="13" y="0.0" width="281" height="38"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                            <color key="tintColor" red="0.33333334329999997" green="0.6549019814" blue="0.83137261870000001" alpha="1" colorSpace="deviceRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="next"/>
+                                            <connections>
+                                                <outlet property="delegate" destination="-1" id="lgl-Jc-wMY"/>
+                                            </connections>
+                                        </textField>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="fCp-ZV-mm9">
+                                    <rect key="frame" x="0.0" y="144" width="300" height="38"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Address Line 1" minimumFontSize="17" id="ehW-OY-LIh">
+                                            <rect key="frame" x="13" y="0.0" width="281" height="38"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                            <color key="tintColor" red="0.33333334329999997" green="0.6549019814" blue="0.83137261870000001" alpha="1" colorSpace="deviceRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="next"/>
+                                            <connections>
+                                                <outlet property="delegate" destination="-1" id="0dr-yc-qaU"/>
+                                            </connections>
+                                        </textField>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address Line 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1Pn-mG-gpG">
+                                            <rect key="frame" x="13" y="1" width="161" height="13"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="NiR-CT-48g">
+                                    <rect key="frame" x="0.0" y="192" width="300" height="38"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address Line 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ohe-9R-rrs">
+                                            <rect key="frame" x="12" y="0.0" width="161" height="13"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Address Line 2" minimumFontSize="17" id="wmq-5O-WuP">
+                                            <rect key="frame" x="12" y="0.0" width="281" height="38"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                            <color key="tintColor" red="0.33333334329999997" green="0.6549019814" blue="0.83137261870000001" alpha="1" colorSpace="deviceRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="next"/>
+                                            <connections>
+                                                <outlet property="delegate" destination="-1" id="g2z-fn-3d2"/>
+                                            </connections>
+                                        </textField>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="xrY-Yt-Br4">
+                                    <rect key="frame" x="0.0" y="244" width="300" height="38"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Town / City" minimumFontSize="17" id="pa4-5d-C2A">
+                                            <rect key="frame" x="13" y="0.0" width="281" height="38"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                            <color key="tintColor" red="0.33333334329999997" green="0.6549019814" blue="0.83137261870000001" alpha="1" colorSpace="deviceRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="next"/>
+                                            <connections>
+                                                <outlet property="delegate" destination="-1" id="dfv-Ur-MfM"/>
+                                            </connections>
+                                        </textField>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Town / City" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3Q7-ng-NR7">
+                                            <rect key="frame" x="13" y="1" width="161" height="13"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="Csj-EW-ucM">
+                                    <rect key="frame" x="0.0" y="292" width="300" height="38"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="State / Region" minimumFontSize="17" id="YI8-gA-Tq5">
+                                            <rect key="frame" x="13" y="0.0" width="281" height="38"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                            <color key="tintColor" red="0.33333334329999997" green="0.6549019814" blue="0.83137261870000001" alpha="1" colorSpace="deviceRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="next"/>
+                                            <connections>
+                                                <outlet property="delegate" destination="-1" id="2dc-sy-F4D"/>
+                                            </connections>
+                                        </textField>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="State / Region" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OWx-XG-IXi">
+                                            <rect key="frame" x="13" y="1" width="161" height="13"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" tag="72" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hy4-tw-0et">
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="38"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal">
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="textField1Active:" destination="-1" eventType="touchUpInside" id="OXP-lz-bK9"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </view>
+                            </subviews>
+                        </scrollView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9jT-nk-SUd">
+                    <rect key="frame" x="86" y="1020" width="124" height="30"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                    <color key="backgroundColor" red="0.16078431369999999" green="0.18823529410000001" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" title="Place Order">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="placeOrder:" destination="-1" eventType="touchUpInside" id="njC-rN-XeY"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9mw-ex-GPi">
+                    <rect key="frame" x="0.0" y="533" width="58" height="40"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <inset key="contentEdgeInsets" minX="2" minY="2" maxX="2" maxY="2"/>
+                    <state key="normal" image="blue_tick.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="sameAsAddressButton:" destination="-1" eventType="touchUpInside" id="qfG-Vm-vkY"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" id="xlw-Lc-Cas">
+                    <rect key="frame" x="10" y="8" width="300" height="34"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Billing Details" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Om4-xH-Mtb">
+                            <rect key="frame" x="10" y="6" width="280" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.91764705879999997" green="0.4039215686" blue="0.2901960784" alpha="1" colorSpace="deviceRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.49019607840000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="534" y="484"/>
+        </scrollView>
+        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="LLl-Z1-CpD">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="dataSource" destination="-1" id="gEt-gd-k0B"/>
+                <outlet property="delegate" destination="-1" id="DIC-8m-ko6"/>
+            </connections>
+            <point key="canvasLocation" x="885" y="303"/>
+        </tableView>
+    </objects>
+    <resources>
+        <image name="back_btn.png" width="14" height="23"/>
+        <image name="blue_tick.png" width="20" height="20"/>
+        <image name="dropdown_arrow.png" width="10" height="6"/>
+    </resources>
+</document>

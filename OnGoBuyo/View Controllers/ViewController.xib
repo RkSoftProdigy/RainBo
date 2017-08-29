@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
+            <connections>
+                <outlet property="FeaturedView" destination="irA-Sg-Dyb" id="oiA-KF-ge9"/>
+                <outlet property="MostView" destination="VQJ-nQ-JrX" id="TfE-ZV-eaj"/>
+                <outlet property="NewArrView" destination="k1Y-Vh-4rL" id="fbp-ti-VPZ"/>
+                <outlet property="SeventhView" destination="Oe0-H9-6az" id="0b5-BV-7YX"/>
+                <outlet property="bannerButtons" destination="VdS-56-sGK" id="Vd3-cF-GYs"/>
+                <outlet property="btnSearch" destination="1Rr-T2-geM" id="Au4-4c-SSP"/>
+                <outlet property="collectionFourth" destination="Xgt-Kv-GTf" id="XeX-mW-Pvo"/>
+                <outlet property="collectionViewEighth" destination="lfG-hA-sVP" id="gCa-lo-M9V"/>
+                <outlet property="collectionViewEleventh" destination="qhl-tx-qUk" id="YhE-nB-s8y"/>
+                <outlet property="collectionViewFeat" destination="h31-K3-3Xe" id="5D7-aL-szh"/>
+                <outlet property="collectionViewFifth" destination="van-Gi-G5G" id="jED-Al-wOh"/>
+                <outlet property="collectionViewMost" destination="9Be-WQ-7Jq" id="D8J-y1-R2F"/>
+                <outlet property="collectionViewNinth" destination="xtO-z7-lYg" id="QgZ-yP-nT8"/>
+                <outlet property="collectionViewSeventh" destination="3O7-d8-bxA" id="cyR-G6-rAc"/>
+                <outlet property="collectionViewTenth" destination="shs-0B-HXC" id="IjC-Qb-j1g"/>
+                <outlet property="collectionViewsixth" destination="29x-Sh-S8q" id="nYQ-G5-ULV"/>
+                <outlet property="collectionview" destination="UJc-p5-0gG" id="woa-4b-dfX"/>
+                <outlet property="customImg2" destination="A1B-qk-VaJ" id="hTk-6C-SZd"/>
+                <outlet property="customImg3" destination="rRc-od-9nI" id="Fps-X0-kgy"/>
+                <outlet property="customImg4" destination="PwG-CC-N3e" id="gev-Yo-msT"/>
+                <outlet property="customImg5" destination="aS5-MR-SQT" id="FUd-Nt-G2g"/>
+                <outlet property="customImg6" destination="QQn-8A-Vx4" id="rlY-He-pEJ"/>
+                <outlet property="eighthView" destination="FBJ-Gt-AYz" id="xqc-UD-m1g"/>
+                <outlet property="eleventhView" destination="YjB-5h-gqc" id="mTj-0X-dQf"/>
+                <outlet property="fifthView" destination="wfl-Hr-8XI" id="Sdq-qr-5Gx"/>
+                <outlet property="fourthView" destination="V7p-4A-hQ3" id="iXR-YA-SHD"/>
+                <outlet property="imagePage" destination="kg7-BQ-63Q" id="MpM-zl-yUf"/>
+                <outlet property="imgSearch" destination="JM6-SD-OBG" id="JCb-0g-K5v"/>
+                <outlet property="lblCount" destination="Ct3-u6-Aou" id="Ny1-kz-Fzv"/>
+                <outlet property="mainView" destination="vTP-rU-8G9" id="3sG-yP-oAw"/>
+                <outlet property="mediaView" destination="CNl-y6-X82" id="5Rz-3Q-gDi"/>
+                <outlet property="mediaView2" destination="UMb-Xb-foI" id="twE-Ub-ReS"/>
+                <outlet property="mediaView3" destination="Z7W-MM-4YF" id="PHL-Vn-pHM"/>
+                <outlet property="mediaView4" destination="i8h-aM-CZf" id="xDn-eU-gzx"/>
+                <outlet property="mediaView5" destination="dEN-Yv-Y57" id="fr6-uI-fLd"/>
+                <outlet property="mediaView6" destination="Dc7-M7-M0z" id="mdB-qp-gWa"/>
+                <outlet property="more1" destination="tsn-aj-Td0" id="nKk-ne-amj"/>
+                <outlet property="more10" destination="CrD-b7-itn" id="DnH-7w-gLE"/>
+                <outlet property="more11" destination="bbj-Ho-Q0c" id="yqQ-v2-HSV"/>
+                <outlet property="more2" destination="cT9-pD-mJM" id="QkN-7g-68f"/>
+                <outlet property="more3" destination="22U-Ou-Lkx" id="HKA-0r-sF2"/>
+                <outlet property="more4" destination="4Qg-rZ-kFR" id="OSC-Yj-Vdl"/>
+                <outlet property="more5" destination="hoq-hz-TBb" id="FAg-MR-44M"/>
+                <outlet property="more6" destination="KlN-7p-D49" id="hj9-Km-VSK"/>
+                <outlet property="more7" destination="xGl-hj-rdo" id="0wg-YA-R6C"/>
+                <outlet property="more8" destination="8qY-Fc-QQL" id="9id-Jn-5Bm"/>
+                <outlet property="more9" destination="TlB-e6-4Mt" id="XOB-Zo-PjC"/>
+                <outlet property="newArrView" destination="k1Y-Vh-4rL" id="9J4-CW-1L0"/>
+                <outlet property="ninthView" destination="KeM-8e-H5t" id="rKI-2o-mp8"/>
+                <outlet property="pageControl" destination="BWe-up-mtx" id="ufV-ww-h2H"/>
+                <outlet property="recentView" destination="7Pg-PU-kLh" id="jWA-pr-xlr"/>
+                <outlet property="recentlyCollectionView" destination="Qah-ND-ik8" id="kcw-Dv-Qem"/>
+                <outlet property="scrollView" destination="MeC-ij-23h" id="lPI-aU-pBy"/>
+                <outlet property="sideNav" destination="dEf-qf-ihl" id="8Nn-XM-y0M"/>
+                <outlet property="sixthView" destination="WLa-WQ-cpM" id="hHP-rK-DLk"/>
+                <outlet property="tableView1" destination="vSN-Dt-xtA" id="gey-lQ-ECg"/>
+                <outlet property="tblView" destination="U8g-Td-TXm" id="4sb-kT-ENV"/>
+                <outlet property="tenthView" destination="9Xq-Qg-dci" id="hN4-va-aZq"/>
+                <outlet property="topview" destination="kg4-2T-KOP" id="UIl-8E-7uo"/>
+                <outlet property="typeEighth" destination="xRx-XE-qD9" id="GgX-oZ-1oC"/>
+                <outlet property="typeEleventh" destination="Yeh-e8-hEc" id="V2B-jD-SAy"/>
+                <outlet property="typeFifth" destination="tB9-h1-Wz2" id="KX3-m4-rRy"/>
+                <outlet property="typeFourth" destination="UHn-3L-ak5" id="Ng1-OB-9me"/>
+                <outlet property="typeMost" destination="I8r-TG-NfE" id="eDY-f5-Oxb"/>
+                <outlet property="typeNinth" destination="gYY-em-KJm" id="EBK-4z-h9I"/>
+                <outlet property="typeRecntlyViewd" destination="jev-NL-M82" id="Wkc-AM-lKc"/>
+                <outlet property="typeSeventh" destination="P2A-Jg-gkz" id="JYx-x4-pa3"/>
+                <outlet property="typeSixth" destination="1uN-jA-MEo" id="Ok0-au-Ha1"/>
+                <outlet property="typeTenth" destination="e24-ca-ysw" id="a9s-bh-l4Z"/>
+                <outlet property="typefeatured" destination="rtf-Aj-DFl" id="hM1-iu-KQD"/>
+                <outlet property="types" destination="B8c-31-2K3" id="Xaz-Lb-aoD"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="kg4-2T-KOP">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="search_bar.png" id="JM6-SD-OBG">
+                            <rect key="frame" x="10" y="61" width="300" height="30"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="search_icon.png" id="U00-E0-oQs">
+                            <rect key="frame" x="284" y="67" width="18" height="18"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="5" id="Ct3-u6-Aou">
+                            <rect key="frame" x="269" y="21" width="14" height="14"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                            <color key="textColor" red="0.91372555489999996" green="0.38431376220000002" blue="0.26666668059999998" alpha="1" colorSpace="deviceRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cart_icon.png" id="mIp-FU-f5F">
+                            <rect key="frame" x="252" y="30" width="20" height="18"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="2ic-5R-OBc">
+                            <rect key="frame" x="228" y="12" width="56" height="36"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            <state key="normal">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="cartDetailBtn_Action:" destination="-1" eventType="touchUpInside" id="K3y-OA-9MW"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="rBW-ax-xBG">
+                            <rect key="frame" x="284" y="15" width="36" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                            <inset key="contentEdgeInsets" minX="10" minY="16" maxX="20" maxY="8"/>
+                            <state key="normal" image="menu_icon.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="appInfoBtn_Action:" destination="-1" eventType="touchUpInside" id="QCx-iC-xPO"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-new.png" id="79B-TC-xMC">
+                            <rect key="frame" x="117" y="18" width="87" height="34"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bAG-Dh-lxc">
+                            <rect key="frame" x="4" y="16" width="37" height="45"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <inset key="contentEdgeInsets" minX="6" minY="13" maxX="6" maxY="11"/>
+                            <state key="normal" image="list_icon.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="sideMenuBtn_Action:" destination="-1" eventType="touchUpInside" id="2wB-cz-iTw"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="1Rr-T2-geM">
+                            <rect key="frame" x="20" y="64" width="287" height="23"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" title="Search your item">
+                                <color key="titleColor" red="0.78431372549019607" green="0.78431372549019607" blue="0.78431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="searchBtn_Action:" destination="-1" eventType="touchUpInside" id="Se3-n2-tJR"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.16078431372549018" green="0.18823529411764706" blue="0.25490196078431371" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" id="dEf-qf-ihl">
+                    <rect key="frame" x="0.0" y="100" width="320" height="380"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="U8g-Td-TXm">
+                            <rect key="frame" x="0.0" y="0.0" width="270" height="380"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="separatorColor" red="0.8666666666666667" green="0.8666666666666667" blue="0.8666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="qQa-Mj-Rq8"/>
+                                <outlet property="delegate" destination="-1" id="0gg-8S-a0f"/>
+                            </connections>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" id="vTP-rU-8G9">
+                    <rect key="frame" x="0.0" y="100" width="320" height="380"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="MeC-ij-23h">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="380"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" id="CNl-y6-X82">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="153"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="kg7-BQ-63Q" customClass="RemoteImageView">
+                                            <rect key="frame" x="0.0" y="4" width="320" height="137"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <gestureRecognizers/>
+                                        </imageView>
+                                        <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" id="BWe-up-mtx">
+                                            <rect key="frame" x="106" y="128" width="108" height="37"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <connections>
+                                                <action selector="changeSlideImage:" destination="-1" eventType="valueChanged" id="GTp-OE-oQl"/>
+                                            </connections>
+                                        </pageControl>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VdS-56-sGK">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="141"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <gestureRecognizers/>
+                                            <state key="normal">
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="BannerButton:" destination="-1" eventType="touchUpInside" id="aAo-K6-T94"/>
+                                                <outletCollection property="gestureRecognizers" destination="rj2-4s-iDt" appends="YES" id="a54-Oz-ISc"/>
+                                                <outletCollection property="gestureRecognizers" destination="OG7-22-bez" appends="YES" id="4oO-QU-Cip"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="k1Y-Vh-4rL">
+                                    <rect key="frame" x="0.0" y="156" width="320" height="208"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" id="DPX-sR-FlA">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="tsn-aj-Td0">
+                                                    <rect key="frame" x="228" y="0.0" width="90" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.16078431369999999" green="0.18823529410000001" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <state key="normal" title="View More">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="viewMore:" destination="-1" eventType="touchUpInside" id="b2M-RO-2H5"/>
+                                                    </connections>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="B8c-31-2K3">
+                                                    <rect key="frame" x="16" y="4" width="152" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="1" green="0.49019607840000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </view>
+                                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" id="UJc-p5-0gG">
+                                            <rect key="frame" x="4" y="38" width="312" height="170"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="8IE-DB-ZuO">
+                                                <size key="itemSize" width="50" height="50"/>
+                                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            </collectionViewFlowLayout>
+                                            <connections>
+                                                <outlet property="dataSource" destination="-1" id="Bnu-TC-XM0"/>
+                                                <outlet property="delegate" destination="-1" id="Ehb-Ww-pX9"/>
+                                            </connections>
+                                        </collectionView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="VQJ-nQ-JrX">
+                                    <rect key="frame" x="0.0" y="372" width="320" height="208"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" id="42u-Ot-j9C">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cT9-pD-mJM">
+                                                    <rect key="frame" x="227" y="0.0" width="90" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.16078431369999999" green="0.18823529410000001" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <state key="normal" title="View More">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="viewMore:" destination="-1" eventType="touchUpInside" id="sFk-SV-G7d"/>
+                                                    </connections>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="I8r-TG-NfE">
+                                                    <rect key="frame" x="16" y="4" width="152" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="1" green="0.49019607840000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </view>
+                                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" id="9Be-WQ-7Jq">
+                                            <rect key="frame" x="4" y="38" width="312" height="170"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="jm6-cZ-Nj9">
+                                                <size key="itemSize" width="50" height="50"/>
+                                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            </collectionViewFlowLayout>
+                                            <connections>
+                                                <outlet property="dataSource" destination="-1" id="Pxr-7v-IqP"/>
+                                                <outlet property="delegate" destination="-1" id="oGr-EQ-9pU"/>
+                                            </connections>
+                                        </collectionView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="UMb-Xb-foI">
+                                    <rect key="frame" x="0.0" y="590" width="320" height="147"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="A1B-qk-VaJ" customClass="RemoteImageView">
+                                            <rect key="frame" x="10" y="4" width="300" height="137"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <gestureRecognizers/>
+                                        </imageView>
+                                        <button opaque="NO" tag="40" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VbB-zt-R20">
+                                            <rect key="frame" x="0.0" y="2" width="320" height="141"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <gestureRecognizers/>
+                                            <state key="normal">
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="CustomBannerButton:" destination="-1" eventType="touchUpInside" id="1eb-B9-Ihf"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="Z7W-MM-4YF">
+                                    <rect key="frame" x="0.0" y="743" width="320" height="147"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="rRc-od-9nI" customClass="RemoteImageView">
+                                            <rect key="frame" x="10" y="4" width="300" height="137"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <gestureRecognizers/>
+                                        </imageView>
+                                        <button opaque="NO" tag="41" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cX7-L4-oRK">
+                                            <rect key="frame" x="0.0" y="2" width="320" height="141"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <gestureRecognizers/>
+                                            <state key="normal">
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="CustomBannerButton:" destination="-1" eventType="touchUpInside" id="1m7-pB-ihs"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="irA-Sg-Dyb">
+                                    <rect key="frame" x="0.0" y="892" width="320" height="208"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                    <subviews>
+                                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" id="h31-K3-3Xe">
+                                            <rect key="frame" x="4" y="38" width="312" height="170"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="SLn-JA-Ue0">
+                                                <size key="itemSize" width="50" height="50"/>
+                                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            </collectionViewFlowLayout>
+                                            <connections>
+                                                <outlet property="dataSource" destination="-1" id="od7-53-E1W"/>
+                                                <outlet property="delegate" destination="-1" id="Bct-e0-1oA"/>
+                                            </connections>
+                                        </collectionView>
+                                        <view contentMode="scaleToFill" id="jPl-4s-NYF">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="22U-Ou-Lkx">
+                                                    <rect key="frame" x="227" y="0.0" width="90" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.16078431369999999" green="0.18823529410000001" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <state key="normal" title="View More">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="viewMore:" destination="-1" eventType="touchUpInside" id="2uU-TW-sfc"/>
+                                                    </connections>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rtf-Aj-DFl">
+                                                    <rect key="frame" x="16" y="4" width="152" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="1" green="0.49019607840000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="V7p-4A-hQ3">
+                                    <rect key="frame" x="0.0" y="1109" width="320" height="208"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                    <subviews>
+                                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" id="Xgt-Kv-GTf">
+                                            <rect key="frame" x="4" y="38" width="312" height="170"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="mtq-0S-SUL">
+                                                <size key="itemSize" width="50" height="50"/>
+                                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            </collectionViewFlowLayout>
+                                            <connections>
+                                                <outlet property="dataSource" destination="-1" id="Eao-hL-ozK"/>
+                                                <outlet property="delegate" destination="-1" id="5hP-rd-oeR"/>
+                                            </connections>
+                                        </collectionView>
+                                        <view contentMode="scaleToFill" id="xdU-SW-yEX">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4Qg-rZ-kFR">
+                                                    <rect key="frame" x="227" y="0.0" width="90" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.16078431369999999" green="0.18823529410000001" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <state key="normal" title="View More">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="viewMore:" destination="-1" eventType="touchUpInside" id="Rwk-Fg-vSb"/>
+                                                    </connections>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="UHn-3L-ak5">
+                                                    <rect key="frame" x="16" y="4" width="152" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="1" green="0.49019607840000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="i8h-aM-CZf">
+                                    <rect key="frame" x="0.0" y="1325" width="320" height="147"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="PwG-CC-N3e" customClass="RemoteImageView">
+                                            <rect key="frame" x="10" y="4" width="300" height="137"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <gestureRecognizers/>
+                                        </imageView>
+                                        <button opaque="NO" tag="42" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Zn1-C0-SHf">
+                                            <rect key="frame" x="0.0" y="2" width="320" height="141"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <gestureRecognizers/>
+                                            <state key="normal">
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="CustomBannerButton:" destination="-1" eventType="touchUpInside" id="pSp-2z-YyK"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="dEN-Yv-Y57">
+                                    <rect key="frame" x="0.0" y="1479" width="320" height="147"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="aS5-MR-SQT" customClass="RemoteImageView">
+                                            <rect key="frame" x="10" y="4" width="300" height="137"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <gestureRecognizers/>
+                                        </imageView>
+                                        <button opaque="NO" tag="43" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Q5M-H7-0OT">
+                                            <rect key="frame" x="0.0" y="2" width="320" height="141"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <gestureRecognizers/>
+                                            <state key="normal">
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="CustomBannerButton:" destination="-1" eventType="touchUpInside" id="4Ff-z3-DdY"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="Dc7-M7-M0z">
+                                    <rect key="frame" x="0.0" y="1632" width="320" height="147"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="QQn-8A-Vx4" customClass="RemoteImageView">
+                                            <rect key="frame" x="10" y="4" width="300" height="137"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <gestureRecognizers/>
+                                        </imageView>
+                                        <button opaque="NO" tag="44" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Qf2-RF-tAM">
+                                            <rect key="frame" x="0.0" y="2" width="320" height="141"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <gestureRecognizers/>
+                                            <state key="normal">
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="CustomBannerButton:" destination="-1" eventType="touchUpInside" id="tjT-H3-AKY"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="wfl-Hr-8XI">
+                                    <rect key="frame" x="1" y="1789" width="320" height="208"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                    <subviews>
+                                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" id="van-Gi-G5G">
+                                            <rect key="frame" x="4" y="38" width="312" height="170"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="a5G-5P-m86">
+                                                <size key="itemSize" width="50" height="50"/>
+                                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            </collectionViewFlowLayout>
+                                            <connections>
+                                                <outlet property="dataSource" destination="-1" id="olz-Ni-9BC"/>
+                                                <outlet property="delegate" destination="-1" id="TCs-mn-abS"/>
+                                            </connections>
+                                        </collectionView>
+                                        <view contentMode="scaleToFill" id="GD3-OR-HYb">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hoq-hz-TBb">
+                                                    <rect key="frame" x="227" y="0.0" width="90" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.16078431369999999" green="0.18823529410000001" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <state key="normal" title="View More">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="viewMore:" destination="-1" eventType="touchUpInside" id="xuh-YQ-Im5"/>
+                                                    </connections>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tB9-h1-Wz2">
+                                                    <rect key="frame" x="16" y="4" width="152" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="1" green="0.49019607840000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="WLa-WQ-cpM">
+                                    <rect key="frame" x="1" y="2008" width="320" height="208"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                    <subviews>
+                                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" id="29x-Sh-S8q">
+                                            <rect key="frame" x="4" y="38" width="312" height="170"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="rNl-Md-Cf0">
+                                                <size key="itemSize" width="50" height="50"/>
+                                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            </collectionViewFlowLayout>
+                                            <connections>
+                                                <outlet property="dataSource" destination="-1" id="2l0-vo-4d3"/>
+                                                <outlet property="delegate" destination="-1" id="v1J-1H-3tc"/>
+                                            </connections>
+                                        </collectionView>
+                                        <view contentMode="scaleToFill" id="7Ah-AS-W09">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="KlN-7p-D49">
+                                                    <rect key="frame" x="227" y="0.0" width="90" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.16078431369999999" green="0.18823529410000001" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <state key="normal" title="View More">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="viewMore:" destination="-1" eventType="touchUpInside" id="e3i-Pi-wm6"/>
+                                                    </connections>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1uN-jA-MEo">
+                                                    <rect key="frame" x="16" y="4" width="152" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="1" green="0.49019607840000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="Oe0-H9-6az">
+                                    <rect key="frame" x="0.0" y="2225" width="320" height="208"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                    <subviews>
+                                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" id="3O7-d8-bxA">
+                                            <rect key="frame" x="4" y="38" width="312" height="170"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="4RC-mj-LSE">
+                                                <size key="itemSize" width="50" height="50"/>
+                                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            </collectionViewFlowLayout>
+                                            <connections>
+                                                <outlet property="dataSource" destination="-1" id="cOc-pR-H7Q"/>
+                                                <outlet property="delegate" destination="-1" id="sSo-z0-r0F"/>
+                                            </connections>
+                                        </collectionView>
+                                        <view contentMode="scaleToFill" id="Mrq-L7-lAf">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <button opaque="NO" tag="17" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xGl-hj-rdo">
+                                                    <rect key="frame" x="227" y="0.0" width="90" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.16078431369999999" green="0.18823529410000001" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <state key="normal" title="View More">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="viewMore:" destination="-1" eventType="touchUpInside" id="Ucj-au-f6O"/>
+                                                    </connections>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="P2A-Jg-gkz">
+                                                    <rect key="frame" x="16" y="4" width="152" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="1" green="0.49019607840000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="FBJ-Gt-AYz">
+                                    <rect key="frame" x="0.0" y="2444" width="320" height="208"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                    <subviews>
+                                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" id="lfG-hA-sVP">
+                                            <rect key="frame" x="4" y="38" width="312" height="170"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="EY3-jy-e29">
+                                                <size key="itemSize" width="50" height="50"/>
+                                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            </collectionViewFlowLayout>
+                                            <connections>
+                                                <outlet property="dataSource" destination="-1" id="k0e-vC-okf"/>
+                                                <outlet property="delegate" destination="-1" id="Rr5-NK-3Tj"/>
+                                            </connections>
+                                        </collectionView>
+                                        <view contentMode="scaleToFill" id="Tlf-G9-qLy">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xRx-XE-qD9">
+                                                    <rect key="frame" x="16" y="4" width="152" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8qY-Fc-QQL">
+                                                    <rect key="frame" x="230" y="0.0" width="90" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.16078431369999999" green="0.18823529410000001" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <state key="normal" title="View More">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="viewMore:" destination="-1" eventType="touchUpInside" id="lPN-Jj-EAF"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" red="1" green="0.49019607840000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="KeM-8e-H5t">
+                                    <rect key="frame" x="0.0" y="2878" width="320" height="208"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                    <subviews>
+                                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" id="xtO-z7-lYg">
+                                            <rect key="frame" x="4" y="38" width="312" height="170"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="bH4-N0-Bha">
+                                                <size key="itemSize" width="50" height="50"/>
+                                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            </collectionViewFlowLayout>
+                                            <connections>
+                                                <outlet property="dataSource" destination="-1" id="nJy-ec-kN6"/>
+                                                <outlet property="delegate" destination="-1" id="sRG-Wv-vhO"/>
+                                            </connections>
+                                        </collectionView>
+                                        <view contentMode="scaleToFill" id="0MH-SR-3HD">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <button opaque="NO" tag="19" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TlB-e6-4Mt">
+                                                    <rect key="frame" x="227" y="0.0" width="90" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.16078431369999999" green="0.18823529410000001" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <state key="normal" title="View More">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="viewMore:" destination="-1" eventType="touchUpInside" id="Avu-1R-NSV"/>
+                                                    </connections>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gYY-em-KJm">
+                                                    <rect key="frame" x="16" y="4" width="152" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="1" green="0.49019607840000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="9Xq-Qg-dci">
+                                    <rect key="frame" x="1" y="2661" width="320" height="208"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                    <subviews>
+                                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" id="shs-0B-HXC">
+                                            <rect key="frame" x="4" y="38" width="312" height="170"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="hRl-kl-IiJ">
+                                                <size key="itemSize" width="50" height="50"/>
+                                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            </collectionViewFlowLayout>
+                                            <connections>
+                                                <outlet property="dataSource" destination="-1" id="X5Q-71-mXA"/>
+                                                <outlet property="delegate" destination="-1" id="cdT-TQ-HS0"/>
+                                            </connections>
+                                        </collectionView>
+                                        <view contentMode="scaleToFill" id="8wS-2e-Wrz">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="e24-ca-ysw">
+                                                    <rect key="frame" x="16" y="4" width="152" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="CrD-b7-itn">
+                                                    <rect key="frame" x="230" y="0.0" width="90" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.16078431369999999" green="0.18823529410000001" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <state key="normal" title="View More">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="viewMore:" destination="-1" eventType="touchUpInside" id="69N-he-hXG"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" red="1" green="0.49019607840000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="YjB-5h-gqc">
+                                    <rect key="frame" x="0.0" y="3097" width="320" height="208"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                    <subviews>
+                                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" id="qhl-tx-qUk">
+                                            <rect key="frame" x="4" y="38" width="312" height="170"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="pnf-7r-cVn">
+                                                <size key="itemSize" width="50" height="50"/>
+                                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            </collectionViewFlowLayout>
+                                            <connections>
+                                                <outlet property="dataSource" destination="-1" id="rIP-Bt-TG8"/>
+                                                <outlet property="delegate" destination="-1" id="P4w-cp-NTD"/>
+                                            </connections>
+                                        </collectionView>
+                                        <view contentMode="scaleToFill" id="vyh-Wv-Y88">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <button opaque="NO" tag="21" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bbj-Ho-Q0c">
+                                                    <rect key="frame" x="227" y="0.0" width="90" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.16078431369999999" green="0.18823529410000001" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <state key="normal" title="View More">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="viewMore:" destination="-1" eventType="touchUpInside" id="rK9-NX-1hP"/>
+                                                    </connections>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Yeh-e8-hEc">
+                                                    <rect key="frame" x="16" y="4" width="152" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="1" green="0.49019607840000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="7Pg-PU-kLh">
+                                    <rect key="frame" x="0.0" y="3315" width="320" height="208"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                    <subviews>
+                                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" id="Qah-ND-ik8">
+                                            <rect key="frame" x="4" y="38" width="316" height="170"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="V8r-rn-XJy">
+                                                <size key="itemSize" width="50" height="50"/>
+                                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            </collectionViewFlowLayout>
+                                            <connections>
+                                                <outlet property="dataSource" destination="-1" id="zZO-Ye-ssT"/>
+                                                <outlet property="delegate" destination="-1" id="hqg-ep-ZcM"/>
+                                            </connections>
+                                        </collectionView>
+                                        <view contentMode="scaleToFill" id="QP3-Wr-oz3">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jev-NL-M82">
+                                                    <rect key="frame" x="16" y="4" width="249" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="1" green="0.49019607840000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                            </subviews>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="yRk-3R-z2g"/>
+                            </connections>
+                        </scrollView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <tableView hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" style="plain" separatorStyle="none" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="vSN-Dt-xtA">
+                    <rect key="frame" x="100" y="20" width="190" height="174"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="f4D-hz-3yf"/>
+                        <outlet property="delegate" destination="-1" id="tNh-zU-X8u"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="311" y="68"/>
+        </view>
+        <swipeGestureRecognizer direction="right" id="OG7-22-bez">
+            <connections>
+                <action selector="handleRight:" destination="-1" id="dQS-Yf-ibr"/>
+            </connections>
+        </swipeGestureRecognizer>
+        <swipeGestureRecognizer direction="left" id="rj2-4s-iDt">
+            <connections>
+                <action selector="handleLeft:" destination="-1" id="3fh-Vh-KkM"/>
+            </connections>
+        </swipeGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="cart_icon.png" width="21" height="16"/>
+        <image name="list_icon.png" width="18" height="14"/>
+        <image name="logo-new.png" width="138" height="70"/>
+        <image name="menu_icon.png" width="5" height="18"/>
+        <image name="search_bar.png" width="708" height="63"/>
+        <image name="search_icon.png" width="39" height="39"/>
+    </resources>
+</document>
